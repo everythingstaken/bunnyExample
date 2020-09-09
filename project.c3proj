@@ -77,7 +77,8 @@
 			"Instructions",
 			"TiledBackground",
 			"Sprite",
-			"Sprite2"
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
@@ -213,28 +214,28 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": false,
+		"pixelRounding": true,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-scale",
+		"fullscreenMode": "letterbox-integer-scale",
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
-			0,
-			0,
-			0,
+			1,
+			0.803921568627451,
+			0.9411764705882353,
 			0
 		],
 		"splashColor": [
 			1,
-			1,
-			1,
+			0.803921568627451,
+			0.9411764705882353,
 			0
 		],
-		"useThemeColor": false,
+		"useThemeColor": true,
 		"themeColor": [
 			1,
-			1,
-			1,
+			0.803921568627451,
+			0.9411764705882353,
 			0
 		],
 		"useHighDpi": true,
@@ -246,7 +247,7 @@
 		"sampling": "trilinear",
 		"downscaling": "medium",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "splash",
+		"loaderStyle": "progress",
 		"preloadSounds": true,
 		"clearBackground": true,
 		"enhancedAccelerationPrecision": true,
