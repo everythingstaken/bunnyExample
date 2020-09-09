@@ -75,7 +75,9 @@
 			"bunnyHitBox",
 			"Audio",
 			"Instructions",
-			"TiledBackground"
+			"TiledBackground",
+			"Sprite",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
