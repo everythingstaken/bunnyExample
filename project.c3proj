@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 21002,
+	"savedWithRelease": 26000,
 	"name": "BunnyGame",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Touch",
 			"name": "Touch",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r210.2",
+			"version": "r260",
 			"bundled": false
 		}
 	],
@@ -238,19 +238,18 @@
 			0.9411764705882353,
 			0
 		],
-		"useHighDpi": true,
 		"orientations": "landscape",
-		"enableWebGL": true,
 		"gpuPreference": "high-performance",
+		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
 		"sampling": "trilinear",
 		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
-		"loaderStyle": "progress",
+		"loaderStyle": "splash",
 		"preloadSounds": true,
-		"clearBackground": true,
-		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
 	"viewportWidth": 640,
